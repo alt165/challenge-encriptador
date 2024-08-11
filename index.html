@@ -21,18 +21,21 @@
         <div class="main__text">
             <textarea class="main__text__textarea" name="" id="" placeholder="Ingrese el texto aquí"></textarea>
             <p class="main__text__text">Solo letras minusculas y sin acentos</p>
-
             <div class="main__buttons">
-                <a class="main__buttons__link" href="">Encriptar</a>
-                <a class="main__buttons__link" href="">Desencriptar</a>
+                <button class="main__buttons__link" onclick="btnEncriptar()">Encriptar</button>
+                <button class="main__buttons__link" onclick="btnDesencriptar()">Desencriptar</button>
+                <!-- <a class="main__buttons__link" href="" onclick="btnEncriptar()">Encriptar</a>
+                <a class="main__buttons__link" href="">Desencriptar</a> -->
             </div>
         </div>
     </article>
     <aside class="sidebar">
         <textarea class="sidebar__textarea" name="" id=""></textarea>
+        <button class="sidebar__button" onclick="copiarTexto()">Copiar</button>
     </aside>
 
     <footer class="footer">Desarrollado por alt165</footer>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
